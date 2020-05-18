@@ -1,0 +1,6 @@
+model,way,AUC,NLL
+RestrictedBatchSampleMF,,0.73286183,-0.55902886
+RestrictedBatchSampleMF,head_users,0.73025336,-0.5705693
+RestrictedBatchSampleMF,tail_users,0.72514599,-0.56297852
+RestrictedBatchSampleMF,head_items,0.72522779,-0.57401142
+RestrictedBatchSampleMF,tail_items,0.73061934,-0.55987703

@@ -1,0 +1,8 @@
+parameters:
+    models: CausalSampleMF
+    rank: 10
+    iter: 100
+    batch_size: 128
+    lambda: [0.00001, 0.0001, 0.001, 0.01, 0.1]
+    lambda2: [0.00001, 0.0001, 0.001, 0.01, 0.1, 1]
+    metric: [NLL, AUC]

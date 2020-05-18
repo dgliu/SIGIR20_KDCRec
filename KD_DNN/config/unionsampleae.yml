@@ -1,0 +1,8 @@
+parameters:
+    models: UnionSampleAE
+    rank: 200
+    iter: 100
+    batch_size: 128
+    lambda: 0.00001
+    confidence: [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0]
+    metric: [NLL, AUC]

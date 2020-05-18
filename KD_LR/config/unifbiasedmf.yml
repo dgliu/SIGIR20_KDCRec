@@ -1,0 +1,7 @@
+parameters:
+    models: BiasedMF
+    rank: 10
+    iter: 200
+    batch_size: [32, 64, 128, 256, 512]
+    lambda: [0.00001, 0.0001, 0.001, 0.01, 0.1]
+    metric: [NLL, AUC]
